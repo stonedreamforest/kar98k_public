@@ -152,14 +152,14 @@ write_uint8(...)
 ```
 
 ### 部分函数作用截图
-- 打印目标进程模块内导入函数信息：`print_impinfo_by_module` （再结合其它函数对壳和shellcode很有用
+- 打印目标进程模块内导入函数信息：`print_impinfo_by_module` （再结合其它函数对壳和shellcode分析很有用
 ![image](https://user-images.githubusercontent.com/16742566/66462446-ac272880-eaad-11e9-8b27-b77463d75974.png)
 
 
 - 打印目标进程页面信息：`print_process_meminfo`
 ![image](https://user-images.githubusercontent.com/16742566/66462273-50f53600-eaad-11e9-8ca2-b3d808b98d23.png)
 
-### 示例
+### 测试示例
 [test.py](https://github.com/stonedreamforest/kar98k_public/blob/master/test.py)
 
 
