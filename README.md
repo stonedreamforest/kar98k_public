@@ -123,6 +123,12 @@ write_uint8(...)
 - 打印目标进程页面信息：`print_process_meminfo`
 ![image](https://user-images.githubusercontent.com/16742566/66462273-50f53600-eaad-11e9-8ca2-b3d808b98d23.png)
 
+### 示例
+[test.py](https://github.com/stonedreamforest/kar98k_public/blob/master/test.py)
+
 
 ### 用法
 - 最简单的是将`kar98k.pyd` 和`test.py`放在同一目录 然后执行`python test.py便可`
+
+
+
