@@ -151,7 +151,7 @@ write_uint8(...)
     
 ```
 
-### 截图
+### 部分函数作用截图
 - 打印目标进程模块内导入函数信息：`print_impinfo_by_module` （再结合其它函数对壳和shellcode很有用
 ![image](https://user-images.githubusercontent.com/16742566/66462446-ac272880-eaad-11e9-8b27-b77463d75974.png)
 
