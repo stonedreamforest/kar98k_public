@@ -169,7 +169,8 @@ https://github.com/stonedreamforest/kar98k_public/releases
 
 ### 用法
 - 最简单的是将`kar98k.pyd` 和`test.py`放在同一目录 然后执行`python test.py便可`
-![image](https://user-images.githubusercontent.com/16742566/66464627-ed213c00-eab1-11e9-8c95-78198553a4fd.png)
+![image](https://user-images.githubusercontent.com/16742566/66464679-ff9b7580-eab1-11e9-8d96-f6425464887d.png)
+
 
 
 
