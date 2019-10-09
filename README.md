@@ -152,14 +152,17 @@ write_uint8(...)
 ```
 
 ### 部分函数作用截图
-- 打印目标进程模块内导入函数信息：`print_impinfo_by_module` （再结合其它函数对壳和shellcode分析很有用
 
+- 打印目标进程页面信息：`print_process_meminfo`
+![image](https://user-images.githubusercontent.com/16742566/66467246-b8fc4a00-eab6-11e9-8149-3d31ea2d7896.png)
+
+
+- 打印目标进程模块内导入函数信息：`print_impinfo_by_module` （再结合其它函数对壳和shellcode分析很有用
 ![image](https://user-images.githubusercontent.com/16742566/66467209-a5e97a00-eab6-11e9-8edc-de3f540a37ed.png)
 
 
 
-- 打印目标进程页面信息：`print_process_meminfo`
-![image](https://user-images.githubusercontent.com/16742566/66467246-b8fc4a00-eab6-11e9-8149-3d31ea2d7896.png)
+
 
 
 
