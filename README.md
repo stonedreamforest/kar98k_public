@@ -180,6 +180,7 @@ https://github.com/stonedreamforest/kar98k_public/releases
 
 
 
-
+### 更改日志
+[CHANGELOG.MD](https://github.com/stonedreamforest/kar98k_public/blob/master/CHANGELOG.MD)
 
 
