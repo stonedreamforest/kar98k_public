@@ -14,7 +14,7 @@
 3. 支持执行shellcode
 4. 支持32、64
 5. 可同时操作多个进程互不影响 线程安全
-6. python2、3支持 （基于python3.7.4、python2.7.16）
+6. python2、3支持 （基于[python-2716](https://www.python.org/downloads/release/python-2716/)、[python-374](https://www.python.org/downloads/release/python-374/)）
 
 ### 函数签名及作用:
 ```
