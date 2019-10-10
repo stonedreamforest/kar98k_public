@@ -138,6 +138,12 @@ get_expfun_info(...)
     get_expfun_info(self: kar98k.kar98k) -> std::vector<kar98k::_FUN_INFO,std::allocator<kar98k::_FUN_INFO> >
 	c++签名：std::vector<FUN_INFO>* get_expfun_info(){...}
 	作用：获取进程所有模块导出表信息
+	typedef struct _FUN_INFO {
+	size_t funRva;
+	size_t funAddress;
+	std::string funName;
+	std::string funSignature;
+	}FUN_INFO , *PFUN_INFO;
 	
 get_expfun_info_size(...)
     get_expfun_info_size(self: kar98k.kar98k) -> int
