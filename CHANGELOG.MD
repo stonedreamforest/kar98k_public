@@ -3,7 +3,8 @@
 公开发行 基于python3 下载：[python-374](https://www.python.org/downloads/release/python-374/)
 
 #### 2019-10-10
-1. 部分代码重构，删除api：
+1. 部分代码重构，库仅提供核心基础功能
+删除api：
 ```
 print_impinfo_by_module
 print_process_meminfo
@@ -17,7 +18,7 @@ refresh_expfun_info：刷新导出表信息
 get_expfun_info：获取进程所有模块导出表信息
 get_expfun_info_size：获取保存导出表信息vector大小
 ```
-库仅提供核心基础功能
+
 
 2. 添加python2支持 下载：[python-2716](https://www.python.org/downloads/release/python-2716/)
 
