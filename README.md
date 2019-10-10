@@ -14,7 +14,7 @@
 3. 支持执行shellcode
 4. 支持32、64
 5. 可同时操作多个进程互不影响 线程安全
-6. python3支持（已测试python3.7.4）
+6. python2、3支持 （基于python3.7.4、python2.7.16）
 
 ### 函数签名及作用:
 ```
@@ -108,22 +108,7 @@ inject_dll(...)
     inject_dll(self: kar98k.kar98k, arg0: str) -> None
     c++签名：void inject_dll(const wchar_t* fullDllPath){...}
     作用: 注入模块
-    
-list_mem_info(...)
-    list_mem_info(self: kar98k.kar98k) -> None
-    c++签名：void list_mem_info(){...}
-    作用: 获取目标进程内存一面信息
-    
-print_impinfo_by_module(...)
-    print_impinfo_by_module(self: kar98k.kar98k, arg0: str) -> None
-    c++签名：void print_impinfo_by_module(std::wstring MDName){...}
-    作用: 打印目标进程保存的导入函数
-    
-print_process_meminfo(...)
-    print_process_meminfo(self: kar98k.kar98k) -> None
-    c++签名：void print_process_meminfo(){...}
-    作用: 打印目标进程内存信息
-    
+
 write_buffer(...)
     write_buffer(self: kar98k.kar98k, arg0: int, arg1: bytes) -> None
     c++签名：void write_buffer(size_t nAddress , py::bytes pyBytes){...}
@@ -149,6 +134,31 @@ write_uint8(...)
     c++签名：void write_uint8(size_t nAddress , unsigned __int8 nValue){...}
     作用: 在指定地址写入8位整形值
     
+get_expfun_info(...)
+    get_expfun_info(self: kar98k.kar98k) -> std::vector<kar98k::_FUN_INFO,std::allocator<kar98k::_FUN_INFO> >
+	c++签名：std::vector<FUN_INFO>* get_expfun_info(){...}
+	作用：获取进程所有模块导出表信息
+	
+get_expfun_info_size(...)
+    get_expfun_info_size(self: kar98k.kar98k) -> int
+	c++签名：size_t get_expfun_info_size(){...}
+	作用：获取保存导出表信息vector大小
+
+refresh_expfun_info(...)
+    refresh_expfun_info(self: kar98k.kar98k) -> None
+	c++签名：void refresh_expfun_info(){...}
+	作用：刷新导出表信息
+	
+refresh_mem_info(...)
+    refresh_mem_info(self: kar98k.kar98k) -> None
+	c++签名：void refresh_mem_info(){...}
+	作用：刷新进程内存信息
+	
+refresh_mod_info(...)
+    refresh_mod_info(self: kar98k.kar98k) -> None
+	c++签名：void refresh_mod_info(){...}
+	作用：刷新进程模块信息
+	
 ```
 
 ### 部分函数作用截图
