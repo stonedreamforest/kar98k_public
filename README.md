@@ -164,6 +164,18 @@ refresh_mod_info(...)
     refresh_mod_info(self: kar98k.kar98k) -> None
 	c++签名：void refresh_mod_info(){...}
 	作用：刷新进程模块信息
+
+get_fs_value(...)
+    get_fs_value(self: kar98k.kar98k, arg0: int) -> bytes
+	c++签名：py::bytes get_fs_value(unsigned char nOffset){...}
+	作用： 获取目标进程fs[offset]值
+	
+get_gs_value(...)
+    get_gs_value(self: kar98k.kar98k, arg0: int) -> bytes
+	c++签名：py::bytes get_gs_value(unsigned char nOffset){...}
+	作用： 获取目标进程gs[offset]值
+	
+	
 	
 ```
 
