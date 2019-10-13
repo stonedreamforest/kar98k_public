@@ -23,3 +23,11 @@ get_expfun_info_size：获取保存导出表信息vector大小
 2. 添加python2支持 下载：[python-2716](https://www.python.org/downloads/release/python-2716/)
 
 3. 更新示例脚本`test.py`以便兼容新api，更详细的api使用展示
+
+#### 2019-10-13
+1. 添加`EumFun.py`: 用来模拟函数执行
+2. 添加api:
+```
+get_fs_value: 获取目标进程fs[offset]值
+get_gs_value:：获取目标进程gs[offset]寄存器值
+```
