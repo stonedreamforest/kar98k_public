@@ -31,3 +31,7 @@ get_expfun_info_size：获取保存导出表信息vector大小
 get_fs_value: 获取目标进程fs[offset]值
 get_gs_value:：获取目标进程gs[offset]寄存器值
 ```
+
+
+#### 2019-10-21
+bug修复...
