@@ -204,7 +204,8 @@ https://github.com/stonedreamforest/kar98k_public/releases
 - 最简单的是将`kar98k.pyd` 和`test.py`放在同一目录 然后执行`python test.py`便可
 ![image](https://user-images.githubusercontent.com/16742566/66468475-c9adbf80-eab8-11e9-8080-04e7b2d7c95d.png)
 
-
+### 讨论
+[看雪：进程内存分析操作工具 ](https://bbs.pediy.com/thread-254935.htm)
 
 ### 更改日志
 [CHANGELOG](https://github.com/stonedreamforest/kar98k_public/blob/master/CHANGELOG.MD)
