@@ -1,3 +1,6 @@
+![GitHub Releases](https://img.shields.io/github/downloads/stonedreamforest/kar98k_public/latest/total?style=flat-square&logo=github)
+![GitHub All Releases](https://img.shields.io/github/downloads/stonedreamforest/kar98k_public/total?label=downloads-total&logo=github&style=flat-square)
+
 # kar98k_public
 
 
