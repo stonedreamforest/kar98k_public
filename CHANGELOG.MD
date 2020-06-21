@@ -1,6 +1,24 @@
 
-#### 2019-10-09
-公开发行 基于python3 下载：[python-374](https://www.python.org/downloads/release/python-374/)
+
+
+#### 2020-06-21
+
+1.  更新`python3`为`python383`
+2. 一些bug修复
+
+
+#### 2019-10-21
+bug修复...
+
+
+#### 2019-10-13
+1. 添加`EumFun.py`: 用来模拟函数执行
+2. 添加api:
+```
+get_fs_value: 获取目标进程fs[offset]值
+get_gs_value:：获取目标进程gs[offset]寄存器值
+```
+
 
 #### 2019-10-10
 1. 部分代码重构，库仅提供核心基础功能
@@ -24,14 +42,24 @@ get_expfun_info_size：获取保存导出表信息vector大小
 
 3. 更新示例脚本`test.py`以便兼容新api，更详细的api使用展示
 
-#### 2019-10-13
-1. 添加`EumFun.py`: 用来模拟函数执行
-2. 添加api:
-```
-get_fs_value: 获取目标进程fs[offset]值
-get_gs_value:：获取目标进程gs[offset]寄存器值
-```
 
 
-#### 2019-10-21
-bug修复...
+#### 2019-10-09
+公开发行 基于python3 下载：[python-374](https://www.python.org/downloads/release/python-374/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
