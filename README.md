@@ -1,4 +1,3 @@
-![GitHub Releases](https://img.shields.io/github/downloads/stonedreamforest/kar98k_public/latest/total?style=flat-square&logo=github)
 ![GitHub All Releases](https://img.shields.io/github/downloads/stonedreamforest/kar98k_public/total?label=downloads-total&logo=github&style=flat-square)
 
 # kar98k_public
@@ -17,7 +16,7 @@
 3. 支持执行shellcode
 4. 支持32、64
 5. 可同时操作多个进程互不影响 线程安全
-6. python2、3支持 （基于[python-2716](https://www.python.org/downloads/release/python-2716/)、[python-374](https://www.python.org/downloads/release/python-374/)）
+6. python2、3支持 （基于[python-2716](https://www.python.org/downloads/release/python-2716/)、[python-383](https://www.python.org/downloads/release/python-374/)）
 
 ### 函数签名及作用:
 ```
